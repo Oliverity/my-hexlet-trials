@@ -2,7 +2,7 @@
 https://ru.hexlet.io/challenges/programming_basics_ackermann
 */
 
-const notZeroOrPositive = (n) => {
+const neitherZeroNorPositive = (n) => {
   if (isNaN(n)) return true;
   return ((n < 0) || (Math.floor(n) !== n)) ? true : false;
 };
@@ -16,7 +16,7 @@ const iterAckermann = (m, n) => {
 const Ackermann = (iM, iN) => {
   const nM = Number(iM); // Number(NaN) returns NaN
   const nN = Number(iN); // Number(undefined) returns NaN too
-  if (notZeroOrPositive(nM) || notZeroOrPositive(nN)) return undefined;
+  if (neitherZeroNorPositive(nM) || neitherZeroNorPositive(nN)) return undefined;
 
   return iterAckermann(nM, nN);
 };
