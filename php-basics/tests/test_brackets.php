@@ -1,7 +1,7 @@
 <?php
 
 /*
-https://ru.hexlet.io/challenges/intro_to_programming_balanced_brackets
+https://ru.hexlet.io/challenges/php_basics_balanced_brackets
 */
 
 require_once('../brackets.php');
