@@ -9,7 +9,7 @@ use function OliverityHexletTrials\Brackets\isBalanced;
 
 function testAreBracketsBalanced(string $str)
 {
-	 $res = isBalanced($str) ? 'true' : 'false';
+  $res = isBalanced($str) ? 'true' : 'false';
   print_r("{$str} - эти скобки сбалансированы?   \t{$res}\n");
 };
 
