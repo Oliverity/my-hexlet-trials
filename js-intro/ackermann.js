@@ -1,5 +1,6 @@
 /*
 https://ru.hexlet.io/challenges/programming_basics_ackermann
+https://web.archive.org/web/20210122220329/https://ru.hexlet.io/challenges/programming_basics_ackermann
 */
 
 const isPositiveInfinite = (n) => {
